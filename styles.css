@@ -110,13 +110,14 @@ input[type="radio"] {
 }
 
 input[type="text"], input[type="email"] {
-    padding: 0.5rem;
+    padding: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     width: 100%;
     border-radius: 1rem;
     border: 0.2rem solid white;
     background-color: transparent;
+    font-size: 1rem;
 }
 
 select {
@@ -135,6 +136,28 @@ select option {
     color: white;
 }
 
+#q5 {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+    background-color: transparent;
+    color: white;
+}
+
 ::placeholder {
     color: white;
+}
+
+button {
+    background-color: white;
+    color: #702F1C;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }

@@ -79,15 +79,55 @@
             </form>
         </section>
         <section>
+            <h3>Questão 5 - Quais os fundadores da marca Burger King?</h3>
+            <form>
+                <select name="q5" id="q5">
+                    <option value="q5a1">Jerry Murrell</option>
+                    <option value="q5a2">Dave Thomas</option>
+                    <option value="q5a3">McLamore & David Edgerton</option>
+                    <option value="q5a4">Danny Meyer</option>
+                    <option value="q5a5">Harry Snyder e Esther Snyder</option>
+                </select>
+                <p id="resposta5"></p>
+            </form>
+        </section>
+        <section>
+            <h3>Questão 6 - Em que Ano foi inaugurado o primeiro Restaurante Drive Thru da Burger King e em que cidade?</h3>
+            <form>
+                <input type="radio" id="q6a1" name="q6" value="a">
+                <label for="q6a1">a) 1975 em Serra Vista</label><br>
+                <input type="radio" id="q6a2" name="q6" value="b">
+                <label for="q6a2">b) 1970 em Columbus</label><br>
+                <input type="radio" id="q6a3" name="q6" value="c">
+                <label for="q6a3">c) 1970 em Miami</label><br>
+                <input type="radio" id="q6a4" name="q6" value="d">
+                <label for="q6a4">d) 1948 em Baldwin Park</label><br>
+                <p></p>
+            </form>
+        </section>
+        <section>
+            <h3>Questão 7 - Quando e onde foi inaugurada a primeira loja Adiser no Brasil?</h3>
+            <form>
+                <input type="radio" id="q7a1" name="q7" value="a">
+                <label for="q7a1">a) </label><br>
+                <input type="radio" id="q7a2" name="q7" value="b">
+                <label for="q7a2">b) </label><br>
+                <input type="radio" id="q7a3" name="q7" value="c">
+                <label for="q7a3">c) </label><br>
+                <input type="radio" id="q7a4" name="q7" value="d">
+                <label for="q7a4">d) 22/12/2009 no Shopping Balneário Camboriú, Santa Catarina</label><br>
+            </form>
+        </section>
+        <section>
             <fieldset>
                 <legend><h3>Toque final</h3></legend>
                 <p>Por favor, nos informe seu nome, email e seu cargo abaixo.</p><br>
                 <form>
-                    <label for="nome">Nome:</label>
+                    <h3><label for="nome">Nome* (Obrigatório):</label></h3>
                     <input type="text" id="nome" name="nome" placeholder="Digite aqui o seu nome!"><br>
-                    <label for="email">Email:</label>
+                    <h3><label for="email">Email* (Obrigatório):</label></h3>
                     <input type="email" id="email" name="email" placeholder="Digite aqui o seu email!"><br>
-                    <label for="cargo">Cargo:</label><br>
+                    <h3><label for="cargo">Cargo* (Obrigatório):</label><br></h3>
                     <select name="cargo" id="cargo">
                         <option value="atendente">Atendente</option>
                         <option value="instrutor">Instrutor</option>
@@ -95,6 +135,8 @@
                         <option value="supervisor">Supervisor</option>
                         <option value="outro">Outro</option>
                     </select>
+                    <p>Clique neste botão abaixo para lançar os seus dados e enviar as suas respostas!</p>
+                    <button onclick="">Enviar</button>
                 </form>
             </fieldset>
         </section>
